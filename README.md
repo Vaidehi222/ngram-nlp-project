@@ -73,9 +73,13 @@ Higher-order models often fail due to **data sparsity** — this project shows h
 pip install -r requirements.txt
 python main.py
 
+---
+
 📁 Output
 results/results.csv → numerical results
 plots/ → comparison graphs
+
+---
 
 📂 Datasets
 Datasets are not included due to size constraints.
@@ -83,11 +87,15 @@ Download from:
 - IMDB Movie Reviews Dataset (Kaggle)
 - Reuters News Dataset (NLTK)
 
+---
+
 🧩 Tech Stack
 Python
 Pandas
 Matplotlib
 NLTK (for dataset support)
+
+---
 
 💡 Why This Project Matters
 This project demonstrates practical NLP challenges such as:
@@ -96,14 +104,20 @@ This project demonstrates practical NLP challenges such as:
 - Applying smoothing techniques effectively
 It bridges the gap between theoretical NLP concepts and real-world implementation.
 
+---
+
  🚀 Future Improvements
 Implement Kneser-Ney smoothing
 Add next-word prediction system
 Build a Streamlit demo UI
 Compare with neural language models
 
+---
+
  👤 Author
 **Vaidehi Pansuriya**  
 Computer Engineering Student | AI/ML Enthusiast
+
+---
 
  ⭐ If you found this useful, consider giving it a star!
