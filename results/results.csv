@@ -1,0 +1,5 @@
+Dataset,Model,Smoothing,Perplexity
+IMDB,Bigram,Laplace,4982.899680919874
+IMDB,Trigram,Backoff,461.9837649208385
+Reuters,Bigram,Laplace,1967.2872994671695
+Reuters,Trigram,Backoff,125.073539766206
