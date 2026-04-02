@@ -68,12 +68,11 @@ Higher-order models often fail due to **data sparsity** — this project shows h
 ---
 
 ## ⚙️ How to Run
-
-```bash
+```
 pip install -r requirements.txt
 python main.py
+```
 
----
 
 📁 Output
 results/results.csv → numerical results
@@ -107,15 +106,17 @@ It bridges the gap between theoretical NLP concepts and real-world implementatio
 ---
 
  🚀 Future Improvements
-Implement Kneser-Ney smoothing
-Add next-word prediction system
-Build a Streamlit demo UI
-Compare with neural language models
+- Implement Kneser-Ney smoothing
+- Add next-word prediction system
+- Build a Streamlit demo UI
+- Compare with neural language models
 
 ---
 
  👤 Author
-**Vaidehi Pansuriya**  
+ 
+Vaidehi Pansuriya
+
 Computer Engineering Student | AI/ML Enthusiast
 
 ---
