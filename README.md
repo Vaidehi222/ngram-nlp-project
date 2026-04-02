@@ -1,5 +1,7 @@
 # 🔤 N-Gram Language Modeling with Smoothing Techniques
 
+> 🚀 Achieved up to **15x reduction in perplexity** using Back-off smoothing in trigram models.
+
 A complete implementation of word-level N-gram language models from scratch in Python, demonstrating how smoothing techniques solve real-world NLP challenges like data sparsity.
 
 ---
@@ -49,10 +51,10 @@ Higher-order models often fail due to **data sparsity** — this project shows h
 ## 📈 Results Visualization
 
 ### IMDB Dataset
-plots/IMDB_comparison.png
+![IMDB Comparison](plots/IMDB_comparison.png)
 
 ### Reuters Dataset
-plots/Reuters_comparison.png
+![Reuters Comparison](plots/Reuters_comparison.png)
 
 ---
 
@@ -70,3 +72,38 @@ plots/Reuters_comparison.png
 ```bash
 pip install -r requirements.txt
 python main.py
+
+📁 Output
+results/results.csv → numerical results
+plots/ → comparison graphs
+
+📂 Datasets
+Datasets are not included due to size constraints.
+Download from:
+- IMDB Movie Reviews Dataset (Kaggle)
+- Reuters News Dataset (NLTK)
+
+🧩 Tech Stack
+Python
+Pandas
+Matplotlib
+NLTK (for dataset support)
+
+💡 Why This Project Matters
+This project demonstrates practical NLP challenges such as:
+- Handling data sparsity
+- Understanding language model limitations
+- Applying smoothing techniques effectively
+It bridges the gap between theoretical NLP concepts and real-world implementation.
+
+ 🚀 Future Improvements
+Implement Kneser-Ney smoothing
+Add next-word prediction system
+Build a Streamlit demo UI
+Compare with neural language models
+
+ 👤 Author
+**Vaidehi Pansuriya**  
+Computer Engineering Student | AI/ML Enthusiast
+
+ ⭐ If you found this useful, consider giving it a star!
